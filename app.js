@@ -14,7 +14,7 @@ function addToDo(event) {
   tr.appendChild(td);
   var buttonTd = document.createElement('td');
   var button = document.createElement('button');
-  var buttonText = document.createTextNode('X');
+  var buttonText = document.createTextNode('⨉');
   button.appendChild(buttonText);
   buttonTd.appendChild(button);
   tr.appendChild(buttonTd);
