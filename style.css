@@ -59,3 +59,19 @@ button {
   background-color: #216689;
   border: solid 5px #0a141b;
 }
+
+@media screen and (orientation: landscape) {
+  section {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  * {
+    font-size: 16px;
+  }
+  section {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
